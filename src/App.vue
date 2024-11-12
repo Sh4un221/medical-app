@@ -22,7 +22,7 @@ import DrugSearch from './components/DrugSearch.vue';
 export default {
   name: 'App',
   components: {
-    DrugSearch,
-  },
-};
+    DrugSearch
+  }
+}
 </script>
