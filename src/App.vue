@@ -11,19 +11,13 @@
     </v-app-bar>
 
     <v-main>
-      <DrugSearch /> <!-- Usa el componente aquí -->
-      <router-view></router-view>
+      <router-view></router-view> <!-- El enrutador maneja qué componente se muestra -->
     </v-main>
   </v-app>
 </template>
 
 <script>
-import DrugSearch from './components/DrugSearch.vue';
-
 export default {
   name: 'App',
-  components: {
-    DrugSearch
-  }
 }
 </script>
