@@ -11,6 +11,7 @@
     </v-app-bar>
 
     <v-main>
+      <DrugSearch /> <!-- Usa el componente aquí -->
       <router-view></router-view>
     </v-main>
   </v-app>
